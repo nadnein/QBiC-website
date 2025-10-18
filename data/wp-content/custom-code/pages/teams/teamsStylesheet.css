@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+:root{
+    --team-name-font-size: 40px;
+    --team-name-margin-bottom: 16px;
+
+    --team-description-font-size: 16px;
+    --team-description-margin-bottom: 32px;
+
+    --gap-between-members: 30px;
+
+    --member-image-max-height: 300px;
+    --member-image-max-width: 250px;
+    --member-image-margin-bottom: 10px;
+
+    --member-name-font-size: 20px;
+    --member-name-margin-bottom: 5px; 
+
+    --member-title-font-size: 16px; 
+    --member-title-margin-bottom: 5px;
+
+    --email-icon-scale: 1; /* change this to scale everything up/down */
+    --email-icon-color: white;
+    --email-icon-hover-color: rgb(167, 229, 255);
+}
+
+
+body{
+    font-family: 'Inter', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0 0 0 0;
+    line-height: 1.4;
+}
+
+#teams {
+    padding: 20px;
+    background-color: rgba(161, 30, 59, 1);
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+.team {
+    max-width: calc(var(--member-image-max-width) * 4 + var(--gap-between-members) * 3);
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    color: #fff;
+}
+
+.team-name {
+    font-weight: 100;
+    font-size: var(--team-name-font-size);
+    margin-bottom: var(--team-name-margin-bottom);
+    margin-top: 0;
+
+}
+
+.team-description {
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    font-size: var(--team-description-font-size);
+    margin-bottom: var(--team-description-margin-bottom);
+    margin-top: 0;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 250px)) !important;
+    gap: var(--gap-between-members);
+    max-width: 100%;
+}
+
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    position: relative;
+    text-align: left;
+    background: rgba(0, 0, 0, 0);
+}
+
+.member-image {
+    max-width: 250;
+    max-height: 300;
+    flex: auto;
+    margin-bottom: var(--member-image-margin-bottom);
+    margin-top: 0;
+}
+
+.member-name {
+    font-weight: 600;
+    font-size: var(--member-name-font-size) !important;
+    line-height: 1.2;
+    margin-bottom: var(--member-name-margin-bottom)!important;
+    margin-top: 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* don't change name without checking js*/
+.member-title {
+    font-weight: 400;
+    font-size: var(--member-title-font-size) !important;
+    line-height: 1.2;
+    margin-bottom: var(--member-title-margin-bottom) !important;
+    margin-top: 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.email-wrapper,
+  .email-link {
+    background-color: transparent !important;
+    margin: 0 !important;
+    border: 0 !important;
+    display: inline-block;
+    line-height: 20px !important;
+  }
+  .email-wrapper {
+    padding: 5px 0 0 0;
+    font-size: 0;
+    overflow: hidden;
+  }
+  .email-link {
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: lowercase;
+    transition-duration: 0.3s;
+  }
+  .material-symbols-outlined {
+      font-variation-settings:
+        'FILL' 0,
+        'wght' calc(400 * var(--email-icon-scale)),
+        'GRAD' 0,
+        'opsz' calc(24 * var(--email-icon-scale));
+      font-size: calc(24px * var(--email-icon-scale));
+      cursor: pointer;
+      color: var(--email-icon-color);
+      transition: 
+        transform 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+        color 0.2s;
+    }
+
+.material-symbols-outlined:hover {
+  transform: scale(1.1);
+  color: var(--email-icon-hover-color);
+}

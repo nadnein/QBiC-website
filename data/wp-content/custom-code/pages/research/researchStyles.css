@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+:root{
+  --search-box-max-width: 600px; /* standard: 600px */
+  --search-box-focus-shadow:0 4px 10px rgba(74,144,226,0.3);
+  
+  --focus-color: rgb(74,144,226);
+
+  --search-box-font-size: 18px;
+
+  --gap-between-papers: 15px;
+  --paper-title-font-size: 20px; 
+  --paper-title-margin-bottom: 15px; 
+  --paper-detail-font-size: 13px;
+  --paper-detail-margin-bottom: 10px;
+  --paper-detail-line-height: 1.3;
+}
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  background: #ffffff;
+  color: #333;
+  margin: 30px;
+  min-height: 100vh;
+}
+
+button {
+  padding: 12px 20px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.2s ease, transform 0.15s ease;
+}
+
+#search-bar-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  max-width: var(--search-box-max-width);
+  margin: 0 auto 40px auto;
+  padding: 0px;
+}
+
+
+/* Wrapper for layout spacing */
+#year-filter-wrapper {
+  position: relative;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Dropdown button styling */
+/* don't change name without checking js*/
+#year-filter-button{
+  font-size: var(--search-box-font-size);
+  min-width: 160px;
+}
+
+#year-filter-button:focus,
+#year-filter-button:hover{
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  outline: none;
+}
+
+
+#year-filter-button[aria-expanded="true"]{
+  color: rgba(0, 0, 0, 0.7) !important;
+  background-color: #f9f9f9;
+  border-color: var(--search-box-focus-border-color) !important;
+  box-shadow: var(--search-box-focus-shadow) !important;
+}
+
+
+/* Arrow icon */
+/* Initial state â€” arrow points right */
+#year-filter-button .arrow {
+  margin-left: 8px;
+  transform: rotate(-90deg); /* Right-facing */
+  transition: transform 0.3s ease;
+}
+
+/* Expanded state â€” arrow points down */
+#year-filter-button[aria-expanded="true"] .arrow {
+  transform: rotate(0deg); /* Downward */
+}
+
+/* Dropdown list styling */
+/* don't change name without checking js*/
+#year-filter-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  border: none;
+  border-radius: 10px;
+  margin-top: 6px;
+  padding: 0;
+  list-style: none;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  max-height: 300px;
+  overflow-y: auto;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  opacity: 0;
+  transform: translateY(-8px);
+  pointer-events: none;
+}
+
+/* Visible state â€” add this with JS when dropdown is open */
+#year-filter-list.show {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+/* Dropdown items */
+#year-filter-list li {
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+#year-filter-list li:hover,
+#year-filter-list li:focus {
+  background-color: #f0f0f0;
+}
+
+#year-filter-list li[aria-selected="true"] {
+  background-color: rgb(204, 51, 102);
+  color: white;
+}
+
+/* don't change name without checking js*/
+#search-box {
+  width: 100%;
+  max-width: var(--search-box-max-width) !important;
+  padding: 12px 20px;
+  font-size: 18px; 
+  /* border: 1px solid #ccc; */
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.15) !important;
+  background: #fff;
+  color: #333;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#search-box:focus {
+  border-color: var(--search-box-focus-border-color) !important;
+  box-shadow: var(--search-box-focus-shadow) !important;
+}
+#search-box:focus::placeholder {
+  opacity: 0.4;
+  transition: opacity 0.2s ease;
+}
+
+.material-symbols-outlined {
+  padding: 7px 10px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  cursor: pointer;
+  color: black;
+  transition: 
+    color 0.2s;
+}
+
+.material-symbols-outlined:hover {
+  transform: scale(1.1);
+  color: white;
+}
+
+#download-button {
+  padding: 0px 0px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease, transform 0.15s ease;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+#download-button .material-symbols-outlined {
+  font-size: 24px;
+  color: #333;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+#download-button:hover {
+  background: rgb(204, 51, 102);
+  transform: translateY(-2px); 
+}
+
+#download-button:hover .material-symbols-outlined {
+  color: #ffffff;
+  transform: scale(1.1);
+}
+
+
+#download-menu {
+  display: none; 
+
+  position: absolute;
+  z-index: 1000; 
+  margin-top: 10px;
+  
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  width: 180px;
+  padding: 8px;
+  
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#download-json,
+#download-csv {
+  width: 100%;
+  padding: 10px 12px;
+  border: none;
+  background: none;
+  font-size: 16px;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 4px; 
+  transition: background-color 0.2s ease, color 0.2s ease;
+  color: #333;
+}
+
+
+#download-json:hover,
+#download-json:focus,
+#download-csv:hover,
+#download-csv:focus {
+  background-color: rgb(204, 51, 102); 
+  color: white;
+  outline: none;
+}
+
+
+#papers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 32%)) !important;
+  gap: var(--gap-between-papers);
+  max-width: 100%; 
+  margin: 0 auto;
+  justify-content: center;
+}
+
+/* don't change name without checking js*/
+.paper-card {
+  position: relative;
+  background: #fff;
+  border-radius: 15px;
+  padding: 25px 30px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08) !important;
+  transition: 
+    transform 0.4s ease, 
+    opacity 0.3s ease,
+    box-shadow 0.4s ease;
+  cursor: pointer;
+  text-align: center;
+}
+
+.paper-card:hover {
+  will-change: transform;
+  box-shadow: 0 10px 25px rgba(74,144,226,0.2) !important;
+  transform: translateY(-5px) scale(1.02);
+  color: #1a1a1a;
+  position: relative;
+}
+
+
+/* don't change name without checking js*/
+.paper-title {
+  font-weight: 600;
+  font-size: var(--paper-title-font-size) !important;
+  line-height: 1.2;
+  margin-bottom: var(--paper-title-margin-bottom) !important;
+  color: rgb(161, 30, 59);
+  font: Arial, sans-serif;
+}
+
+/* don't change name without checking js*/
+.paper-detail {
+  font-weight: 100;
+  font-size: var(--paper-detail-font-size) !important;
+  line-height: var(--paper-detail-line-height) !important;
+  margin-bottom: var(--paper-detail-margin-bottom) !important;
+  color: rgb(50, 65, 75);  /* light grey for all paper details */
+  font: Arial;
+}
+
+/* don't change name without checking js*/
+.paper-detail.authors {
+  font-style: normal;
+  color: #555;
+}
+
+/* don't change name without checking js*/
+.paper-detail.journal-info {
+  font-style: italic;
+  color: #555;
+}
+
+/* don't change name without checking js*/
+.paper-detail.publisher {
+  font-style: normal;
+  color: #555;
+}
+
+/* don't change name without checking js*/
+.paper-detail:last-child {
+  margin-bottom: 0;
+}

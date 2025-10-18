@@ -1,0 +1,164 @@
+{
+    "rdds" : {
+        "name" : "Research & Development in Data Science (RDDS) Team",
+        "description" : "The RDDS Team is dedicated to developing reproducible bioinformatics workflows and computational methods – including data science and machine learning approaches -- with a focus on supporting the needs of the BioPM Team. We specialize in creating domain-specific Nextflow and nf-core workflows for Omics and Bioimaging data analysis. Beyond workflow development, our work includes quality control, systematic benchmarking, and advancing the overall workflow infrastructure to ensure reliable and high-quality results. We are also committed to environmentally sustainable research. To this end, we are developing a Nextflow plugin to estimate CO₂ emissions from workflow runs, aiming to reduce the carbon footprint of bioinformatics analyses at the University of Tübingen and across the entire nf-core community.",
+        "members" : {
+            "team_member_0" : {
+                "name" : "team member",
+                "title" : "title & scope of work",
+                "image" : "templateMember",
+                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+            },
+            "team_member_1" : {
+                "name" : "team member",
+                "title" : "title & scope of work",
+                "image" : "templateMember",
+                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+            },
+            "team_member_2" : {
+                "name" : "team member",
+                "title" : "title & scope of work",
+                "image" : "templateMember",
+                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+            },
+            "team_member_3" : {
+                "name" : "team member",
+                "title" : "title & scope of work",
+                "image" : "templateMember",
+                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+            },
+            "team_member_4" : {
+                "name" : "team member",
+                "title" : "title & scope of work",
+                "image" : "templateMember",
+                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+            },
+            "team_member_5" : {
+                "name" : "team member",
+                "title" : "title & scope of work",
+                "image" : "templateMember",
+                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+            },
+            "team_member_6" : {
+                "name" : "team member",
+                "title" : "title & scope of work",
+                "image" : "templateMember",
+                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+            },
+            "team_member_7" : {
+                "name" : "team member",
+                "title" : "title & scope of work",
+                "image" : "templateMember",
+                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+            }
+        }
+    },
+    "biopm" : {
+        "name" : "Bioinformatics Support  & Project Management (BioPM) Team",
+        "description" : "The BioPM Team is supporting end-users, primarily from the Campus of the University of Tübingen including the Faculty of Science (MNF) and at the Faculty of Medicine (MFT), but also from extern, with their projects running through the QBiC Core facility.  Specifically, the team is not only focused on the technical aspects of bioinformatics—such as primary data analysis using nf-core and more project-tailored downstream data analysis and visualization supporting publications—but also on the crucial  administrative and logistical aspects of running complex, often interdisciplinary projects. This includes important scientific project management tasks including consulting, designing experiments, coordinating with external data generation partners, handling business reports, managing user access to their data and providing end-users with detailed cost estimates. Further, the Team has to fulfill important Research Data Management (RDM) tasks, ensuring raw data is collected with associated and curated metadata to meet the FAIR principles. Thus the BioPM  team's role is multi-faceted, encompassing both the scientific and operational sides of Core facility projects.",
+        "members" : {
+            "team_member_0" : {
+                "name" : "team member",
+                "title" : "title & scope of work",
+                "image" : "templateMember",
+                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+            },
+            "team_member_1" : {
+                "name" : "team member",
+                "title" : "title & scope of work",
+                "image" : "templateMember",
+                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+            },
+            "team_member_2" : {
+                "name" : "team member",
+                "title" : "title & scope of work",
+                "image" : "templateMember",
+                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+            },
+            "team_member_3" : {
+                "name" : "team member",
+                "title" : "title & scope of work",
+                "image" : "templateMember",
+                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+            },
+            "team_member_4" : {
+                "name" : "team member",
+                "title" : "title & scope of work",
+                "image" : "templateMember",
+                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+            },
+            "team_member_5" : {
+                "name" : "team member",
+                "title" : "title & scope of work",
+                "image" : "templateMember",
+                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+            },
+            "team_member_6" : {
+                "name" : "team member",
+                "title" : "title & scope of work",
+                "image" : "templateMember",
+                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+            },
+            "team_member_7" : {
+                "name" : "team member",
+                "title" : "title & scope of work",
+                "image" : "templateMember",
+                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+            }
+        }
+    },
+    "team_template" : {
+        "name" : "Template Team",
+        "description" : "A detailed overview of the team’s purpose, core functions, strategic objectives, key responsibilities, collaborative relationships within the organization, and any specialized tools, processes, or methodologies it employs.",
+        "members" : {
+            "team_member_0" : {
+                "name" : "team member",
+                "title" : "title & scope of work",
+                "image" : "templateMember",
+                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+            },
+            "team_member_1" : {
+                "name" : "team member",
+                "title" : "title & scope of work",
+                "image" : "templateMember",
+                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+            },
+            "team_member_2" : {
+                "name" : "team member",
+                "title" : "title & scope of work",
+                "image" : "templateMember",
+                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+            },
+            "team_member_3" : {
+                "name" : "team member",
+                "title" : "title & scope of work",
+                "image" : "templateMember",
+                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+            },
+            "team_member_4" : {
+                "name" : "team member",
+                "title" : "title & scope of work",
+                "image" : "templateMember",
+                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+            },
+            "team_member_5" : {
+                "name" : "team member",
+                "title" : "title & scope of work",
+                "image" : "templateMember",
+                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+            },
+            "team_member_6" : {
+                "name" : "team member",
+                "title" : "title & scope of work",
+                "image" : "templateMember",
+                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+            },
+            "team_member_7" : {
+                "name" : "team member",
+                "title" : "title & scope of work",
+                "image" : "templateMember",
+                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+            }
+        }
+    }
+}
