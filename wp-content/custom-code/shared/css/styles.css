@@ -53,9 +53,9 @@
 }
 
 *, *::before, *::after {
-  font: var(--font-text-primary);
-  margin: 0 0 0 0 ;
-  padding: 0 0 0 0;
+    font: var(--font-text-primary);
+    margin: 0 0 0 0 ;
+    padding: 0 0 0 0;
 }
 
 body{
@@ -87,207 +87,200 @@ p, div{
 }
 
 div{
-  max-width: min(100%, var(--max-width-div));
+    max-width: min(100%, var(--max-width-div));
 }
 
 
 button {
-  padding: 12px 20px;
-  background-color: white;
-  border: none;
-  border-radius: 10px;
-  color: #333;
-  cursor: pointer;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
-  transition: box-shadow 0.2s ease, transform 0.15s ease;
+    padding: 12px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    color: #333;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.2s ease, transform 0.15s ease;
 }
 
 #search-bar-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 12px;
-  max-width: var(--search-box-max-width);
-  margin: 0 auto 40px auto
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    max-width: var(--search-box-max-width);
+    margin: 0 auto 40px auto
+  }
 
 /* Wrapper for layout spacing */
 #year-filter-wrapper {
-  position: relative;
+    position: relative;
 }
 
 /* Dropdown button styling */
 /* don't change name without checking js*/
 #year-filter-button{
-  min-width: 160px;
+    min-width: 160px;
 }
 
 #year-filter-button:focus,
 #year-filter-button:hover{
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
-  outline: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    outline: none;
 }
 
 
 #year-filter-button[aria-expanded="true"]{
-  color: rgba(0, 0, 0, 0.7) !important;
-  box-shadow: 0 1px 5px rgba(0,0,0,0.15) !important;
+    color: rgba(0, 0, 0, 0.7) !important;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.15) !important;
 }
 
 
 /* Arrow icon */
 /* Initial state arrow points right */
 #year-filter-button .arrow {
-  margin-left: 8px;
-  transform: rotate(-90deg); /* Right-facing */
-  transition: transform 0.3s ease;
+    margin-left: 8px;
+    transform: rotate(-90deg); /* Right-facing */
+    transition: transform 0.3s ease;
 }
 
 /* Expanded state â€” arrow points down */
 #year-filter-button[aria-expanded="true"] .arrow {
-  transform: rotate(0deg); /* Downward */
+    
 }
 
 /* Dropdown list styling */
 /* don't change name without checking js*/
 #year-filter-list {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  right: 0;
-  border: none;
-  border-radius: 10px;
-  margin-top: 6px;
-  background-color: white;
-  list-style: none;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
-  max-height: 300px;
-  overflow-y: auto;
-  transition: opacity 0.2s ease, transform 0.2s ease;
-  opacity: 0;
-  transform: translateY(-8px);
-  pointer-events: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    border: none;
+    border-radius: 10px;
+    margin-top: 6px;
+    background-color: white;
+    list-style: none;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    max-height: 300px;
+    overflow-y: auto;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    opacity: 0;
+    transform: translateY(-8px);
+    pointer-events: none;
 }
 
 /* Visible state â€” add this with JS when dropdown is open */
 #year-filter-list.show {
-  opacity: 1;
-  transform: translateY(0);
-  pointer-events: auto;
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
 }
 
 /* Dropdown items */
 #year-filter-list li {
-  padding: 10px 16px;
-  cursor: pointer;
-  transition: background 0.2s ease;
+    padding: 10px 16px;
+    cursor: pointer;
+    transition: background 0.2s ease;
 }
 
 #year-filter-list li:hover,
 #year-filter-list li:focus {
-  background-color: var(--lightgrey-primary);
+    background-color: var(--lightgrey-primary);
 }
 
 #year-filter-list li[aria-selected="true"] {
-  background-color: var(--red-primary);
-  color: var(--lightgrey-primary);
+    background-color: var(--red-primary);
+    color: var(--lightgrey-primary);
 }
 
 /* don't change name without checking js*/
 #search-box {
-  width: 100%;
-  max-width: var(--search-box-max-width) !important;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 10px;
-  box-shadow: 0 1px 5px rgba(0,0,0,0.15) !important;
-  background: white;
-  outline: none;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    max-width: var(--search-box-max-width) !important;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.15) !important;
+    background: white;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 #search-box:focus {
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2) !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2) !important;
 }
 #search-box:focus::placeholder {
-  opacity: 0.4;
-  transition: opacity 0.2s ease;
+    opacity: 0.4;
+    transition: opacity 0.2s ease;
 }
 
 .material-symbols-outlined {
-  /* padding: 7px 10px; */
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24;
-  cursor: pointer;
-  color: black;
-  transition: 
-    color 0.2s;
+    /* padding: 7px 10px; */
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+    cursor: pointer;
+    color: black;
+    transition: color 0.2s;
 }
 
-/* .material-symbols-outlined:hover {
-  transform: scale(1.1);
-  color: var(--lightblue-primary)
-} */
-
-
 #download-button {
-  padding: 5px;
-  background: white !important;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-  transition: box-shadow 0.2s ease, transform 0.15s ease;
-  cursor: pointer;
-  transition: background-color 0.2s ease, transform 0.2s ease;
+    padding: 5px;
+    background: white !important;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease, transform 0.15s ease;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
 #download-button .material-symbols-outlined {
-  font-size: 24px;
-  color: #333;
-  transition: color 0.2s ease, transform 0.2s ease;
+    font-size: 24px;
+    color: #333;
+    transition: color 0.2s ease, transform 0.2s ease;
 }
 
 #download-button:hover {
-  transform: translateY(-2px); 
+    transform: translateY(-2px); 
 }
 
 #download-button:hover .material-symbols-outlined {
-  color: var(--lightblue-primary);
-  transform: scale(1.1);
+    color: var(--lightblue-primary);
+    transform: scale(1.1);
 }
 
 
 #download-menu {
-  display: none; 
-  position: absolute;
-  z-index: 1000; 
-  margin-top: 10px;
-  background: white;
-  border: none;
-  border-radius: 8px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  width: 180px;
-  padding: 8px;
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
+    display: none; 
+    position: absolute;
+    z-index: 1000; 
+    margin-top: 10px;
+    background: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    width: 180px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 #download-json,
 #download-csv {
-  width: 100%;
-  padding: 10px 12px;
-  border: none;
-  background: white;
-  text-align: left;
-  cursor: pointer;
-  border-radius: 4px; 
-  transition: background-color 0.2s ease, color 0.2s ease;
+    width: 100%;
+    padding: 10px 12px;
+    border: none;
+    background: white;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 4px; 
+    transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 
@@ -295,77 +288,77 @@ button {
 #download-json:focus,
 #download-csv:hover,
 #download-csv:focus {
-  background-color: var(--lightgrey-primary); 
-  outline: none;
+    background-color: var(--lightgrey-primary); 
+    outline: none;
 }
 
 #papers-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 32%)) !important;
-  gap: var(--gap-between-papers);
-  justify-content: center;
-  justify-items: flex-start;
-  align-self: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 32%)) !important;
+    gap: var(--gap-between-papers);
+    justify-content: center;
+    justify-items: flex-start;
+    align-self: center;
 }
 
 /* don't change name without checking js*/
 .paper-card {
-  position: relative;
-  background: #fff;
-  border-radius: 15px;
-  padding: 25px 30px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.08) !important;
-  transition: 
-    transform 0.4s ease, 
-    opacity 0.3s ease,
-    box-shadow 0.4s ease;
-  cursor: pointer;
-  text-align: center;
+    position: relative;
+    background: #fff;
+    border-radius: 15px;
+    padding: 25px 30px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08) !important;
+    transition: 
+        transform 0.4s ease, 
+        opacity 0.3s ease,
+        box-shadow 0.4s ease;
+    cursor: pointer;
+    text-align: center;
 }
 
 .paper-card:hover {
-  will-change: transform;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1) !important;
-  transform: translateY(-3px);
-  position: relative;
+    will-change: transform;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1) !important;
+    transform: translateY(-3px);
+    position: relative;
 }
 
 
 /* don't change name without checking js*/
 .paper-title {
-  font: var(--font-headings-primary);
-  font-weight: 600;
-  font-size: var(--paper-title-font-size) !important;
-  line-height: 1.2;
-  margin-bottom: var(--paper-title-margin-bottom) !important;
-  color: var(--red-primary);
+    font: var(--font-headings-primary);
+    font-weight: 600;
+    font-size: var(--paper-title-font-size) !important;
+    line-height: 1.2;
+    margin-bottom: var(--paper-title-margin-bottom) !important;
+    color: var(--red-primary);
 }
 
 /* don't change name without checking js*/
 .paper-detail {
-  font-size: var(--paper-detail-font-size) !important;
-  line-height: var(--paper-detail-line-height) !important;
-  margin-bottom: var(--paper-detail-margin-bottom) !important;
+    font-size: var(--paper-detail-font-size) !important;
+    line-height: var(--paper-detail-line-height) !important;
+    margin-bottom: var(--paper-detail-margin-bottom) !important;
 }
 
 /* don't change name without checking js*/
 .paper-detail.authors {
-  font-style: normal;
+    font-style: normal;
 }
 
 /* don't change name without checking js*/
 .paper-detail.journal-info {
-  font-style: italic;
+    font-style: italic;
 }
 
 /* don't change name without checking js*/
 .paper-detail.publisher {
-  font-style: normal;
+    font-style: normal;
 }
 
 /* don't change name without checking js*/
 .paper-detail:last-child {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 #teams {
@@ -384,7 +377,7 @@ button {
     color: white;
 }
 .team *{
-  color: white;
+    color: white;
 }
 
 .team-name {
