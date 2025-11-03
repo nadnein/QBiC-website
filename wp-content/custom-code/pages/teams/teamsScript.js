@@ -1,7 +1,7 @@
-import { attachEmailHandlers } from "../../shared/js/utils.js";
+import { attachEmailHandlers } from "/wp-content/custom-code/shared/js/utils.js";
 
 
-const dataLocation = "../../data";
+const dataLocation = "/wp-content/custom-code/data";
 const peopleImagesLocation = `${dataLocation}/images/people`;
 const teamsDataLocation = `${dataLocation}/json/teamsData.json`;
 

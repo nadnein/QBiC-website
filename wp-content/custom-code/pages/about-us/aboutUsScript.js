@@ -1,2 +1,2 @@
-import { attachEmailHandlers } from "../../shared/js/utils.js";
+import { attachEmailHandlers } from "/wp-content/custom-code/shared/js/utils.js";
 attachEmailHandlers()
