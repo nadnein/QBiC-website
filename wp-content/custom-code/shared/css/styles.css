@@ -6,6 +6,7 @@
     --grey-primary: rgba(50, 65, 75, 1);
     --grey-secondary: rgba(84, 89, 95, 1);
     --lightgrey-primary:rgba(245, 245, 245, 1);
+    --blue-primary: rgba(17, 102, 189, 1);
     --lightblue-primary: rgba(110, 193, 228, 1);
 
     /* fonts */
@@ -106,6 +107,35 @@ button {
 }
 
 
+/* === MAIL BUTTON, ICON, LINK === */
+
+/* don't change name without checking js*/
+.email-wrapper,
+.email-link {
+    background-color: transparent !important;
+    margin: 0 !important;
+    border: 0 !important;
+    display: inline-block;
+}
+
+/* don't change name without checking js*/
+.email-wrapper {
+    padding: 5px 0 0 0;
+    font-size: 0;
+    overflow: hidden;
+}
+
+/* don't change name without checking js*/
+.email-link {
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: lowercase;
+    transition-duration: 0.3s;
+    height: 24px !important;
+    width: 24px !important;
+}
+
+
 /* === RESEARCH === */
 
 /* don't change name without checking js*/
@@ -165,6 +195,7 @@ button {
     top: 100%;
     left: 0;
     right: 0;
+    padding-left: 0;
     border: none;
     border-radius: 10px;
     margin-top: 6px;
@@ -224,17 +255,6 @@ button {
     transition: opacity 0.2s ease;
 }
 
-.material-symbols-outlined {
-    font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 24;
-    cursor: pointer;
-    color: black;
-    transition: color 0.2s;
-}
-
 #download-button {
     padding: 5px;
     background: white !important;
@@ -246,7 +266,7 @@ button {
 
 #download-button .material-symbols-outlined {
     font-size: 24px;
-    color: #333;
+    color: var(--grey-primary);
     transition: color 0.2s ease, transform 0.2s ease;
 }
 
@@ -454,34 +474,6 @@ button {
     text-transform: uppercase;
 }
 
-
-/* === MAIL BUTTON, ICON, LINK === */
-
-/* don't change name without checking js*/
-.email-wrapper,
-.email-link {
-    background-color: transparent !important;
-    margin: 0 !important;
-    border: 0 !important;
-    display: inline-block;
-    line-height: 20px !important;
-}
-
-/* don't change name without checking js*/
-.email-wrapper {
-    padding: 5px 0 0 0;
-    font-size: 0;
-    overflow: hidden;
-}
-
-/* don't change name without checking js*/
-.email-link {
-    cursor: pointer;
-    text-decoration: none;
-    text-transform: lowercase;
-    transition-duration: 0.3s;
-}
-
 /* don't change name without checking js*/
 .material-symbols-outlined {
 	padding: 0;
@@ -518,6 +510,20 @@ button {
     font-weight: 600;
     text-transform: none;
 }
+
+.job-cta {
+    display: flex;
+    align-items: center;
+}
+
+.job-cta a {
+    display: inline;
+    color: var(--blue-primary)
+}
+.job-cta a:hover {
+    color: var(--lightblue-primary)
+}
+
 
 /* don't change name without checking js*/
 .pdfbox {
