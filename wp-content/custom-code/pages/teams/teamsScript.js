@@ -38,6 +38,10 @@ async function displayTeams (pathname) {
             memberDiv.classList.add('team-member')
             memberDiv.id = `${memberId}`
 
+            if ('break' in memberObject) {
+                memberDiv.style.gridColumnStart = memberObject.break;
+            }
+
             const memberImage = document.createElement('img')
             memberImage.classList.add('member-image')
             memberImage.src = `${peopleImagesLocation}/${memberObject.image}.jpg`
