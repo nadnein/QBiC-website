@@ -52,6 +52,48 @@
     "pp": ""
   },
   {
+    "title": "Impact of pH and salinity fluctuations on oxidation of Fe(II) by nitrate-reducing microorganisms enriched from the reduced tidal sediment of an extreme acidic river (Río Tinto, Spain)",
+    "authors": [
+      "Martina Bottaro",
+      "Sergey Abramov",
+      "Ricardo Amils",
+      "Daniel Straub",
+      "Sebastian Kühnel",
+      "Marie Mollenkopf",
+      "Sara Kleindienst",
+      "Martin Obst",
+      "Andreas Kappler"
+    ],
+    "journal": "FEMS Microbiology Ecology",
+    "publisher": "Oxford University Press (OUP)",
+    "doi": "10.1093/femsec/fiaf083",
+    "url": "https://doi.org/10.1093/femsec/fiaf083",
+    "year": 2025,
+    "volume": "101",
+    "issue": "10",
+    "pp": ""
+  },
+  {
+    "title": "Linking Microbial Gene‐Expression and Denitrification Rates in Aquifers: Insights From an Intermediate‐Scale In Situ Injection‐Extraction Experiment and Reaction Model",
+    "authors": [
+      "C. Strobel",
+      "O. A. Cirpka",
+      "F. Schädler",
+      "D. Straub",
+      "C. Leven",
+      "S. Kleindienst",
+      "A. Mellage"
+    ],
+    "journal": "Journal of Geophysical Research: Biogeosciences",
+    "publisher": "American Geophysical Union (AGU)",
+    "doi": "10.1029/2025jg009181",
+    "url": "https://doi.org/10.1029/2025jg009181",
+    "year": 2025,
+    "volume": "130",
+    "issue": "11",
+    "pp": ""
+  },
+  {
     "title": "nf-core/detaxizer: a benchmarking study for decontamination from human sequences",
     "authors": [
       "Jannik Seidel",
