@@ -407,14 +407,12 @@ button {
 
 /* don't change name without checking js*/
 .member-image {
-    max-width: 250;
-    max-height: 300;
-    width: 100%;
+    max-height: 300px !important;
+    max-width: 250px !important;
     aspect-ratio: 5 / 6;
     object-fit: cover;
     object-position: center;
     margin-bottom: var(--member-image-margin-bottom);
-    margin-top: 0;
 }
 
 /* don't change name without checking js*/
