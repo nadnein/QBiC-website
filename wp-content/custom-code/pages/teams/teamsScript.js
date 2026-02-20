@@ -42,11 +42,13 @@ async function displayTeams(pathname) {
         teamName.textContent = teamObject.name;
         teamDiv.appendChild(teamName);
 
-        // Team description
-        const teamDescription = document.createElement('p');
-        teamDescription.classList.add('team-description');
-        teamDescription.textContent = teamObject.description;
-        teamDiv.appendChild(teamDescription);
+        // Team description (only if it exists)
+        if (teamObject.description) {
+            const teamDescription = document.createElement('p');
+            teamDescription.classList.add('team-description');
+            teamDescription.textContent = teamObject.description;
+            teamDiv.appendChild(teamDescription);
+        }
 
         // Grid container for members
         const membersDiv = document.createElement('div');

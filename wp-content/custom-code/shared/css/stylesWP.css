@@ -356,7 +356,7 @@ button {
     background-color: var(--red-primary);
     display: flex;
     flex-direction: column;
-    gap: 200px;
+    gap: 80px;
 }
 
 /* don't change name without checking js*/
@@ -411,7 +411,7 @@ button {
     max-width: 250px !important;
     aspect-ratio: 5 / 6;
     object-fit: cover;
-    object-position: center;
+    object-position: top center;
     margin-bottom: var(--member-image-margin-bottom);
 }
 

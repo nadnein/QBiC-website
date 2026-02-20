@@ -1,139 +1,156 @@
 {
+    "head" : {
+        "name" : "Head of QBiC",
+        "members" : {
+            "team_member_0" : {
+                "name" : "Prof. Dr. Sven Nahnsen",
+                "title" : "Professor for Biomedical Data Science and Director",
+                "image" : "SvenNahnsen",
+                "mail" : "c3Zlbi5uYWhuc2VuQHFiaWMudW5pLXR1ZWJpbmdlbi5kZQ=="
+            },
+            "team_member_1" : {
+                "name" : "Katrin Leichtle",
+                "title" : "Assistant to Prof. Nahnsen",
+                "image" : "KatrinLeichtle",
+                "mail" : "a2F0cmluLmxlaWNodGxlQHVuaS10dWViaW5nZW4uZGU="
+            }
+        }
+    },
     "biopm" : {
         "name" : "Bioinformatics Support  & Project Management (BioPM) Team",
-        "description" : "The BioPM Team is supporting end-users, primarily from the Campus of the University of Tübingen including the Faculty of Science (MNF) and at the Faculty of Medicine (MFT), but also from extern, with their projects running through the QBiC Core facility.  Specifically, the team is not only focused on the technical aspects of bioinformatics—such as primary data analysis using nf-core and more project-tailored downstream data analysis and visualization supporting publications—but also on the crucial  administrative and logistical aspects of running complex, often interdisciplinary projects. This includes important scientific project management tasks including consulting, designing experiments, coordinating with external data generation partners, handling business reports, managing user access to their data and providing end-users with detailed cost estimates. Further, the Team has to fulfill important Research Data Management (RDM) tasks, ensuring raw data is collected with associated and curated metadata to meet the FAIR principles. Thus the BioPM  team's role is multi-faceted, encompassing both the scientific and operational sides of Core facility projects.",
+        "description" : "The BioPM Team primarily supports end users from the University of Tübingen campus, including the Faculty of Science (MNF), the Faculty of Medicine (MFT), and external users whose projects run through the QBiC Core facility. The team focuses not only on technical bioinformatics tasks, such as primary data analysis using nf-core and project-specific downstream analysis and visualization for publications, but also on the administrative and logistical coordination of complex, often interdisciplinary projects. This includes scientific project management activities such as consulting, experimental design, coordination with external data-generating partners, business reporting, user access management, and cost estimation. In addition, the team plays a key role in research data management (RDM), ensuring that raw data and curated metadata are collected in accordance with FAIR principles. Overall, the BioPM team operates at the intersection of scientific and operational aspects of core facility projects.",
         "members" : {
             "team_member_0" : {
                 "name" : "Dr. Stefan Czemmel",
                 "title" : "Team Lead Bioinformatics Support & Project Management",
                 "image" : "StefanCzemmel",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+                "mail" : "c3RlZmFuLmN6ZW1tZWxAcWJpYy51bmktdHVlYmluZ2VuLmRl"
             },
             "team_member_1" : {
                 "name" : "Dr. Luis Kuhn Cuellar",
                 "title" : "Imaging Platform Lead, Data Steward",
                 "image" : "LuisKuhnCuellar",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+                "mail" : "bHVpcy5rdWhuQHFiaWMudW5pLXR1ZWJpbmdlbi5kZQ=="
             },
             "team_member_2" : {
                 "name" : "Dr. Daniel Straub",
                 "title" : "Bioinformatics Research Scientist",
                 "image" : "DanielStraub",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+                "mail" : "ZGFuaWVsLnN0cmF1YkBxYmljLnVuaS10dWViaW5nZW4uZGU="
             },
             "team_member_3" : {
                 "name" : "Dr. Morgana Barroso Oquendo",
                 "title" : "Project Management, NGS Platform Lead",
                 "image" : "MorganaOquendo",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+                "mail" : "bW9yZ2FuYS5vcXVlbmRvQHFiaWMudW5pLXR1ZWJpbmdlbi5kZQ=="
             },
             "team_member_4" : {
                 "name" : "Dr. Jun-Hoe Lee",
                 "title" : "Bioinformatics Research Scientist",
                 "image" : "Jun-HoeLee",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+                "mail" : "anVuLWhvZS5sZWVAcWJpYy51bmktdHVlYmluZ2VuLmRl"
             },
             "team_member_5" : {
                 "name" : "Dr. Francesca Barletta Solari",
                 "title" : "Project Management, Mass Spectrometry Platform Lead",
                 "image" : "FrancescaBarletta",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+                "mail" : "ZnJhbmNlc2NhLmJhcmxldHRhLXNvbGFyaUBxYmljLnVuaS10dWViaW5nZW4uZGU="
             },
             "team_member_6" : {
                 "name" : "Dr. Melanie Kirch",
                 "title" : "Bioinformatics Research Scientist",
                 "image" : "MelanieKirch",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+                "mail" : "bWVsYW5pZS5raXJjaEB1bmktdHVlYmluZ2VuLmRl"
             }
         }
     },
     "rdds" : {
         "name" : "Research & Development in Data Science (RDDS) Team",
-        "description" : "The RDDS Team is dedicated to developing reproducible bioinformatics workflows and computational methods – including data science and machine learning approaches -- with a focus on supporting the needs of the BioPM Team. We specialize in creating domain-specific Nextflow and nf-core workflows for Omics and Bioimaging data analysis. Beyond workflow development, our work includes quality control, systematic benchmarking, and advancing the overall workflow infrastructure to ensure reliable and high-quality results. We are also committed to environmentally sustainable research. To this end, we are developing a Nextflow plugin to estimate CO₂ emissions from workflow runs, aiming to reduce the carbon footprint of bioinformatics analyses at the University of Tübingen and across the entire nf-core community.",
+        "description" : "The RDDS Team is dedicated to developing reproducible bioinformatics workflows and computational methods – including data science and machine learning approaches – with a focus on supporting the needs of the BioPM Team. We specialize in creating domain-specific Nextflow and nf-core workflows for Omics and Bioimaging data analysis. Beyond workflow development, our work includes quality control, systematic benchmarking, and advancing the overall workflow infrastructure to ensure reliable and high-quality results. We are also committed to environmentally sustainable research. To this end, we are developing a Nextflow plugin to estimate CO₂ emissions from workflow runs, aiming to reduce the carbon footprint of bioinformatics analyses at the University of Tübingen and across the entire nf-core community.",
         "members" : {
             "team_member_0" : {
                 "name" : "Dr. Sabrina Krakau",
                 "title" : "Team Lead Research and Development in Data Science",
                 "image" : "SabrinaKrakau",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+                "mail" : "c2FicmluYS5rcmFrYXVAcWJpYy51bmktdHVlYmluZ2VuLmRl"
             },
             "team_member_1" : {
                 "name" : "Dr. Daniel Straub",
                 "title" : "Research Software Engineer",
                 "image" : "DanielStraub",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+                "mail" : "ZGFuaWVsLnN0cmF1YkBxYmljLnVuaS10dWViaW5nZW4uZGU="
             },
             "team_member_2" : {
                 "name" : "Dr. Luis Kuhn Cuellar",
                 "title" : "Research Software Engineer",
                 "image" : "LuisKuhnCuellar",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+                "mail" : "bHVpcy5rdWhuQHFiaWMudW5pLXR1ZWJpbmdlbi5kZQ=="
             },
             "team_member_3" : {
                 "name" : "Famke Bäuerle",
                 "title" : "Research Software Engineer/PhD Student",
                 "image" : "FamkeBauerle",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+                "mail" : "ZmFta2UuYmFldWVybGVAcWJpYy51bmktdHVlYmluZ2VuLmRl"
             },
             "team_member_4" : {
                 "name" : "Carolin Schwitalla",
                 "title" : "Research Software Engineer/PhD Student",
                 "image" : "CarolinSchwitalla",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+                "mail" : "Y2Fyb2xpbi5zY2h3aXRhbGxhQHFiaWMudW5pLXR1ZWJpbmdlbi5kZQ=="
             }, 
             "team_member_5" : {
                 "name" : "Josua Carl",
                 "title" : "Research Software Engineer",
                 "image" : "JosuaCarl",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+                "mail" : "am9zdWEuY2FybEB1bmktdHVlYmluZ2VuLmRl"
             },
             "team_member_6" : {
                 "name" : "Nadja Volkmann",
                 "title" : "Research Software Engineer",
                 "image" : "NadjaVolkmann",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+                "mail" : "bmFkamEudm9sa21hbm5AdW5pLXR1ZWJpbmdlbi5kZQ=="
             },
             "team_member_7" : {
                 "name" : "Susanne Jodoin",
                 "title" : "Research Software Engineer",
                 "image" : "SusanneJodoin",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+                "mail" : "c3VzYW5uZS5qb2RvaW5AdW5pLXR1ZWJpbmdlbi5kZQ=="
             }
         }
     },
     "itss" : {
         "name" : "ITSS Team",
-        "description" : "We provide the technological backbone for QBiC by maintaining and expanding a secure, high-availability IT infrastructure. At the same time, we engineer bespoke software for the University of Tübingen’s high-throughput data management platform, supporting researchers throughout the entire data life cycle. Our solutions are designed with technical excellence and a strong focus on usability, making complex data management tasks seamless and effective. We believe in collaborative teamwork, where respect, support, and openness drive us forward. We value learning from setbacks as much as celebrating achievements—because every step contributes to our shared success. We aim to shape the future of research data management by creating an ecosystem that is not only reliable today but also ready for tomorrow. Our goal is to enable machine-actionable integration into emerging data spaces, ensuring that QBiC and the University of Tübingen remain at the forefront of digital research infrastructures. We envision data management solutions that empower science through interoperability, security, and user-centered design—building the foundation for the research of the future.",
+        "description" : "We provide the technological backbone for QBiC by maintaining and expanding a secure, high-availability IT infrastructure. At the same time, we engineer bespoke software for the University of Tübingen’s high-throughput data management platform, supporting researchers throughout the entire data life cycle. Our solutions are designed with technical excellence and a strong focus on usability, making complex data management tasks seamless and effective. We believe in collaborative teamwork, where respect, support, and openness drive us forward. We value learning from setbacks as much as celebrating achievements – because every step contributes to our shared success. We aim to shape the future of research data management by creating an ecosystem that is not only reliable today but also ready for tomorrow. Our goal is to enable machine-actionable integration into emerging data spaces, ensuring that QBiC and the University of Tübingen remain at the forefront of digital research infrastructures. We envision data management solutions that empower science through interoperability, security, and user-centered design—building the foundation for the research of the future.",
         "members" : {
             "team_member_0" : {
                 "name" : "Sven Fillinger",
                 "title" : "Team Lead IT Infrastructure and Scientific Software",
                 "image" : "SvenFillinger",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+                "mail" : "c3Zlbi5maWxsaW5nZXJAcWJpYy51bmktdHVlYmluZ2VuLmRl"
             },
             "team_member_1" : {
                 "name" : "Matthias Seybold",
                 "title" : "System Administrator",
                 "image" : "MatthiasSeybold",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+                "mail" : "bWF0dGhpYXMuc2V5Ym9sZEBxYmljLnVuaS10dWViaW5nZW4uZGU="
             },
             "team_member_2" : {
                 "name" : "Tobias Koch",
                 "title" : "Research Software Engineer",
                 "image" : "TobiasKoch",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+                "mail" : "dG9iaWFzLmtvY2hAdW5pLXR1ZWJpbmdlbi5kZQ=="
             },
             "team_member_3" : {
                 "name" : "Steffen Greiner",
-                "title" : "Data Stuard",
+                "title" : "Data Steward",
                 "image" : "SteffenGreiner",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+                "mail" : "c3RlZmZlbi5ncmVpbmVyQHVuaS10dWViaW5nZW4uZGU="
             },
             "team_member_4" : {
                 "name" : "Shraddha Pawar",
                 "title" : "User Experience Designer",
                 "image" : "ShraddhaPawar",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
+                "mail" : "c2hyYWRkaGEtcHJha2FzaC5wYXdhckBxYmljLnVuaS10dWViaW5nZW4uZGU="
             }
         }
     },

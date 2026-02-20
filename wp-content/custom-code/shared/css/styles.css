@@ -396,9 +396,10 @@ button {
     background-color: var(--red-primary);
     display: flex;
     flex-direction: column;
-    gap: 200px;
+    gap: 40px;
 }
 
+/* don't change name without checking js*/
 /* don't change name without checking js*/
 .team {
     max-width: calc(var(--member-image-max-width) * 4 + var(--gap-between-members) * 3);
@@ -406,6 +407,7 @@ button {
     flex-direction: column;
     align-self: center;
     color: white;
+    margin: 0;
 }
 
 /* don't change name without checking js*/
