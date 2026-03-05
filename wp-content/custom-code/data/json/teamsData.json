@@ -24,43 +24,43 @@
                 "name" : "Dr. Stefan Czemmel",
                 "title" : "Team Lead Bioinformatics Support & Project Management",
                 "image" : "StefanCzemmel",
-                "mail" : "c3RlZmFuLmN6ZW1tZWxAcWJpYy51bmktdHVlYmluZ2VuLmRl"
+                "mail" : "c3VwcG9ydEBxYmljLnplbmRlc2suY29t"
             },
             "team_member_1" : {
-                "name" : "Dr. Luis Kuhn Cuellar",
-                "title" : "Imaging Platform Lead, Data Steward",
-                "image" : "LuisKuhnCuellar",
-                "mail" : "bHVpcy5rdWhuQHFiaWMudW5pLXR1ZWJpbmdlbi5kZQ=="
-            },
-            "team_member_2" : {
-                "name" : "Dr. Daniel Straub",
-                "title" : "Bioinformatics Research Scientist",
-                "image" : "DanielStraub",
-                "mail" : "ZGFuaWVsLnN0cmF1YkBxYmljLnVuaS10dWViaW5nZW4uZGU="
-            },
-            "team_member_3" : {
                 "name" : "Dr. Morgana Barroso Oquendo",
                 "title" : "Project Management, NGS Platform Lead",
                 "image" : "MorganaOquendo",
-                "mail" : "bW9yZ2FuYS5vcXVlbmRvQHFiaWMudW5pLXR1ZWJpbmdlbi5kZQ=="
+                "mail" : "c3VwcG9ydEBxYmljLnplbmRlc2suY29t"
             },
-            "team_member_4" : {
-                "name" : "Dr. Jun-Hoe Lee",
-                "title" : "Bioinformatics Research Scientist",
-                "image" : "Jun-HoeLee",
-                "mail" : "anVuLWhvZS5sZWVAcWJpYy51bmktdHVlYmluZ2VuLmRl"
-            },
-            "team_member_5" : {
+            "team_member_2" : {
                 "name" : "Dr. Francesca Barletta Solari",
                 "title" : "Project Management, Mass Spectrometry Platform Lead",
                 "image" : "FrancescaBarletta",
-                "mail" : "ZnJhbmNlc2NhLmJhcmxldHRhLXNvbGFyaUBxYmljLnVuaS10dWViaW5nZW4uZGU="
+                "mail" : "c3VwcG9ydEBxYmljLnplbmRlc2suY29t"
+            },
+            "team_member_3" : {
+                "name" : "Dr. Luis Kuhn Cuellar",
+                "title" : "Imaging Platform Lead, Data Steward",
+                "image" : "LuisKuhnCuellar",
+                "mail" : "c3VwcG9ydEBxYmljLnplbmRlc2suY29t"
+            },
+            "team_member_4" : {
+                "name" : "Dr. Daniel Straub",
+                "title" : "Bioinformatics Research Scientist",
+                "image" : "DanielStraub",
+                "mail" : "c3VwcG9ydEBxYmljLnplbmRlc2suY29t"
+            },
+            "team_member_5" : {
+                "name" : "Dr. Jun-Hoe Lee",
+                "title" : "Bioinformatics Research Scientist",
+                "image" : "Jun-HoeLee",
+                "mail" : "c3VwcG9ydEBxYmljLnplbmRlc2suY29t"
             },
             "team_member_6" : {
                 "name" : "Dr. Melanie Kirch",
                 "title" : "Bioinformatics Research Scientist",
                 "image" : "MelanieKirch",
-                "mail" : "bWVsYW5pZS5raXJjaEB1bmktdHVlYmluZ2VuLmRl"
+                "mail" : "c3VwcG9ydEBxYmljLnplbmRlc2suY29t"
             }
         }
     },
@@ -129,16 +129,16 @@
                 "mail" : "c3Zlbi5maWxsaW5nZXJAcWJpYy51bmktdHVlYmluZ2VuLmRl"
             },
             "team_member_1" : {
-                "name" : "Matthias Seybold",
-                "title" : "System Administrator",
-                "image" : "MatthiasSeybold",
-                "mail" : "bWF0dGhpYXMuc2V5Ym9sZEBxYmljLnVuaS10dWViaW5nZW4uZGU="
-            },
-            "team_member_2" : {
                 "name" : "Tobias Koch",
                 "title" : "Research Software Engineer",
                 "image" : "TobiasKoch",
                 "mail" : "dG9iaWFzLmtvY2hAdW5pLXR1ZWJpbmdlbi5kZQ=="
+            },
+            "team_member_2" : {
+                "name" : "Matthias Seybold",
+                "title" : "System Administrator",
+                "image" : "MatthiasSeybold",
+                "mail" : "bWF0dGhpYXMuc2V5Ym9sZEBxYmljLnVuaS10dWViaW5nZW4uZGU="
             },
             "team_member_3" : {
                 "name" : "Steffen Greiner",
@@ -151,60 +151,6 @@
                 "title" : "User Experience Designer",
                 "image" : "ShraddhaPawar",
                 "mail" : "c2hyYWRkaGEtcHJha2FzaC5wYXdhckBxYmljLnVuaS10dWViaW5nZW4uZGU="
-            }
-        }
-    },
-    "team_template" : {
-        "name" : "Template Team",
-        "description" : "A detailed overview of the team’s purpose, core functions, strategic objectives, key responsibilities, collaborative relationships within the organization, and any specialized tools, processes, or methodologies it employs.",
-        "members" : {
-            "team_member_0" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            },
-            "team_member_1" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            },
-            "team_member_2" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            },
-            "team_member_3" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            },
-            "team_member_4" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            },
-            "team_member_5" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            },
-            "team_member_6" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            },
-            "team_member_7" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
             }
         }
     }
