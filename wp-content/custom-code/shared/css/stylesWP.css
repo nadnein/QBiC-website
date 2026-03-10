@@ -36,8 +36,8 @@
 
     --gap-between-members: 30px;
 
-    --member-image-max-height: 276px;
-    --member-image-max-width: 230px;
+    --member-image-max-height: 240px;
+    --member-image-max-width: 200px;
     --member-image-margin-bottom: 10px;
 
     --member-name-font-size: 20px;
@@ -352,7 +352,7 @@ button {
 
 /* don't change name without checking js*/
 #teams {
-    padding: 20px;
+    padding: 40px 20px 40px;
     background-color: var(--red-primary);
     display: flex;
     flex-direction: column;
@@ -361,7 +361,7 @@ button {
 
 /* don't change name without checking js*/
 .team {
-    max-width: calc(var(--member-image-max-width) * 4 + var(--gap-between-members) * 3);
+    max-width: calc(var(--member-image-max-width) * 5 + var(--gap-between-members) * 4);
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -381,8 +381,8 @@ button {
 
 }
 
-.team:first-child .team-name {
-    margin-top: 12px;
+#head .team-name {
+    margin-bottom: 0px;
 }
 
 /* don't change name without checking js*/
@@ -394,7 +394,7 @@ button {
 /* don't change name without checking js*/
 .team-grid {
     display: grid;
-    grid-template-columns: repeat(4, minmax(0, var(--member-image-max-width))) !important;
+    grid-template-columns: repeat(5, minmax(0, var(--member-image-max-width))) !important;
     gap: var(--gap-between-members);
     max-width: 100%;
 }
