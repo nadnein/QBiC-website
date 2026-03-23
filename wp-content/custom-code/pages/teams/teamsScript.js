@@ -104,6 +104,10 @@ async function displayTeams(pathname) {
             memberTitle.textContent = memberObject.title;
             memberDiv.appendChild(memberTitle);
 
+            // Contact icons container
+            const contactIconsDiv = document.createElement('div');
+            contactIconsDiv.classList.add('contact-icons');
+
             // Email wrapper
             const mailDiv = document.createElement('div');
             mailDiv.classList.add("email-wrapper");
@@ -119,7 +123,28 @@ async function displayTeams(pathname) {
 
             mailLink.appendChild(mailIcon);
             mailDiv.appendChild(mailLink);
-            memberDiv.appendChild(mailDiv);
+            contactIconsDiv.appendChild(mailDiv);
+
+            // Phone wrapper (only if phone number is provided)
+            if (memberObject.phone) {
+                const phoneDiv = document.createElement('div');
+                phoneDiv.classList.add("phone-wrapper");
+
+                const phoneLink = document.createElement('a');
+                phoneLink.classList.add('phone-link');
+                phoneLink.setAttribute('aria-label', 'phone');
+                phoneLink.setAttribute('href', `tel:${memberObject.phone}`);
+
+                const phoneIcon = document.createElement('span');
+                phoneIcon.classList.add('material-symbols-outlined');
+                phoneIcon.textContent = "call";
+
+                phoneLink.appendChild(phoneIcon);
+                phoneDiv.appendChild(phoneLink);
+                contactIconsDiv.appendChild(phoneDiv);
+            }
+
+            memberDiv.appendChild(contactIconsDiv);
 
             membersDiv.appendChild(memberDiv);
         }

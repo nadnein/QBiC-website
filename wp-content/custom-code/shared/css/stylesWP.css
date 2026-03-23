@@ -50,6 +50,11 @@
     --email-icon-scale: 1;
     --email-icon-color: white;
     --email-icon-hover-color: rgb(167, 229, 255);
+
+    /* phone icon */
+    --phone-icon-scale: 1;
+    --phone-icon-color: white;
+    --phone-icon-hover-color: rgb(167, 229, 255);
 }
 
 
@@ -67,6 +72,16 @@ button {
     transition: box-shadow 0.2s ease, transform 0.15s ease;
 }
 
+/* === CONTACT ICONS CONTAINER === */
+/* don't change name without checking js*/
+.contact-icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0 0 0;
+}
+
 /* === MAIL BUTTON, ICON, LINK === */
 
 /* don't change name without checking js*/
@@ -80,7 +95,7 @@ button {
 
 /* don't change name without checking js*/
 .email-wrapper {
-    padding: 5px 0 0 0;
+    padding: 0;
     font-size: 0;
     overflow: hidden;
 }
@@ -90,6 +105,33 @@ button {
     cursor: pointer;
     text-decoration: none;
     text-transform: lowercase;
+    transition-duration: 0.3s;
+    height: 24px !important;
+    width: 24px !important;
+}
+
+/* === PHONE BUTTON, ICON, LINK === */
+
+/* don't change name without checking js*/
+.phone-wrapper,
+.phone-link {
+    background-color: transparent !important;
+    margin: 0 !important;
+    border: 0 !important;
+    display: inline-block;
+}
+
+/* don't change name without checking js*/
+.phone-wrapper {
+    padding: 0;
+    font-size: 0;
+    overflow: hidden;
+}
+
+/* don't change name without checking js*/
+.phone-link {
+    cursor: pointer;
+    text-decoration: none;
     transition-duration: 0.3s;
     height: 24px !important;
     width: 24px !important;

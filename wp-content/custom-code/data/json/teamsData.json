@@ -6,13 +6,15 @@
                 "name" : "Prof. Dr. Sven Nahnsen",
                 "title" : "Professor for Biomedical Data Science and Director",
                 "image" : "SvenNahnsen",
-                "mail" : "c3Zlbi5uYWhuc2VuQHFiaWMudW5pLXR1ZWJpbmdlbi5kZQ=="
+                "mail" : "c3Zlbi5uYWhuc2VuQHFiaWMudW5pLXR1ZWJpbmdlbi5kZQ==",
+                "phone" : "+49-7071-29-72163"
             },
             "team_member_1" : {
                 "name" : "Katrin Leichtle",
                 "title" : "Assistant to Prof. Nahnsen",
                 "image" : "KatrinLeichtle",
-                "mail" : "a2F0cmluLmxlaWNodGxlQHVuaS10dWViaW5nZW4uZGU="
+                "mail" : "a2F0cmluLmxlaWNodGxlQHVuaS10dWViaW5nZW4uZGU=",
+                "phone" : "+49-7071-29-72164"
             }
         }
     },
@@ -72,49 +74,49 @@
                 "name" : "Dr. Sabrina Krakau",
                 "title" : "Team Lead Research and Development in Data Science",
                 "image" : "SabrinaKrakau",
-                "mail" : "c2FicmluYS5rcmFrYXVAcWJpYy51bmktdHVlYmluZ2VuLmRl"
+                "mail" : "c3VwcG9ydEBxYmljLnplbmRlc2suY29t"
             },
             "team_member_1" : {
                 "name" : "Dr. Daniel Straub",
                 "title" : "Research Software Engineer",
                 "image" : "DanielStraub",
-                "mail" : "ZGFuaWVsLnN0cmF1YkBxYmljLnVuaS10dWViaW5nZW4uZGU="
+                "mail" : "c3VwcG9ydEBxYmljLnplbmRlc2suY29t"
             },
             "team_member_2" : {
                 "name" : "Dr. Luis Kuhn Cuellar",
                 "title" : "Research Software Engineer",
                 "image" : "LuisKuhnCuellar",
-                "mail" : "bHVpcy5rdWhuQHFiaWMudW5pLXR1ZWJpbmdlbi5kZQ=="
+                "mail" : "c3VwcG9ydEBxYmljLnplbmRlc2suY29t"
             },
             "team_member_3" : {
                 "name" : "Famke Bäuerle",
                 "title" : "Research Software Engineer/PhD Student",
                 "image" : "FamkeBauerle",
-                "mail" : "ZmFta2UuYmFldWVybGVAcWJpYy51bmktdHVlYmluZ2VuLmRl"
+                "mail" : "c3VwcG9ydEBxYmljLnplbmRlc2suY29t"
             },
             "team_member_4" : {
                 "name" : "Carolin Schwitalla",
                 "title" : "Research Software Engineer/PhD Student",
                 "image" : "CarolinSchwitalla",
-                "mail" : "Y2Fyb2xpbi5zY2h3aXRhbGxhQHFiaWMudW5pLXR1ZWJpbmdlbi5kZQ=="
+                "mail" : "c3VwcG9ydEBxYmljLnplbmRlc2suY29t"
             }, 
             "team_member_5" : {
                 "name" : "Josua Carl",
                 "title" : "Research Software Engineer",
                 "image" : "JosuaCarl",
-                "mail" : "am9zdWEuY2FybEB1bmktdHVlYmluZ2VuLmRl"
+                "mail" : "c3VwcG9ydEBxYmljLnplbmRlc2suY29t"
             },
             "team_member_6" : {
                 "name" : "Nadja Volkmann",
                 "title" : "Research Software Engineer",
                 "image" : "NadjaVolkmann",
-                "mail" : "bmFkamEudm9sa21hbm5AdW5pLXR1ZWJpbmdlbi5kZQ=="
+                "mail" : "c3VwcG9ydEBxYmljLnplbmRlc2suY29t"
             },
             "team_member_7" : {
                 "name" : "Susanne Jodoin",
                 "title" : "Research Software Engineer",
                 "image" : "SusanneJodoin",
-                "mail" : "c3VzYW5uZS5qb2RvaW5AdW5pLXR1ZWJpbmdlbi5kZQ=="
+                "mail" : "c3VwcG9ydEBxYmljLnplbmRlc2suY29t"
             }
         }
     },
@@ -126,31 +128,31 @@
                 "name" : "Sven Fillinger",
                 "title" : "Team Lead IT Infrastructure and Scientific Software",
                 "image" : "SvenFillinger",
-                "mail" : "c3Zlbi5maWxsaW5nZXJAcWJpYy51bmktdHVlYmluZ2VuLmRl"
+                "mail" : "c3VwcG9ydEBxYmljLnplbmRlc2suY29t"
             },
             "team_member_1" : {
                 "name" : "Tobias Koch",
                 "title" : "Research Software Engineer",
                 "image" : "TobiasKoch",
-                "mail" : "dG9iaWFzLmtvY2hAdW5pLXR1ZWJpbmdlbi5kZQ=="
+                "mail" : "c3VwcG9ydEBxYmljLnplbmRlc2suY29t"
             },
             "team_member_2" : {
                 "name" : "Matthias Seybold",
                 "title" : "System Administrator",
                 "image" : "MatthiasSeybold",
-                "mail" : "bWF0dGhpYXMuc2V5Ym9sZEBxYmljLnVuaS10dWViaW5nZW4uZGU="
+                "mail" : "c3VwcG9ydEBxYmljLnplbmRlc2suY29t"
             },
             "team_member_3" : {
                 "name" : "Steffen Greiner",
                 "title" : "Data Steward",
                 "image" : "SteffenGreiner",
-                "mail" : "c3RlZmZlbi5ncmVpbmVyQHVuaS10dWViaW5nZW4uZGU="
+                "mail" : "c3VwcG9ydEBxYmljLnplbmRlc2suY29t"
             },
             "team_member_4" : {
                 "name" : "Shraddha Pawar",
                 "title" : "User Experience Designer",
                 "image" : "ShraddhaPawar",
-                "mail" : "c2hyYWRkaGEtcHJha2FzaC5wYXdhckBxYmljLnVuaS10dWViaW5nZW4uZGU="
+                "mail" : "c3VwcG9ydEBxYmljLnplbmRlc2suY29t"
             }
         }
     }
