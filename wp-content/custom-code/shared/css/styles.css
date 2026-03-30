@@ -129,7 +129,6 @@ button {
 .email-link {
     cursor: pointer;
     text-decoration: none;
-    text-transform: lowercase;
     transition-duration: 0.3s;
     height: 24px !important;
     width: 24px !important;

@@ -115,7 +115,15 @@ async function displayTeams(pathname) {
             const mailLink = document.createElement('a');
             mailLink.classList.add('email-link');
             mailLink.setAttribute('aria-label', 'email');
-            mailLink.setAttribute('data-encoded-mail', memberObject.mail);
+            
+            // For head members: use encoded email, for others: link to contact page
+            if (teamId === "head") {
+                mailLink.setAttribute('data-encoded-mail', memberObject.mail);
+            } else {
+                mailLink.setAttribute('href', 'https://www.info.qbic.uni-tuebingen.de/#kontakt');
+                mailLink.setAttribute('target', '_blank');
+                mailLink.setAttribute('rel', 'noopener noreferrer');
+            }
 
             const mailIcon = document.createElement('span');
             mailIcon.classList.add('material-symbols-outlined');
@@ -130,17 +138,16 @@ async function displayTeams(pathname) {
                 const phoneDiv = document.createElement('div');
                 phoneDiv.classList.add("phone-wrapper");
 
-                const phoneLink = document.createElement('a');
-                phoneLink.classList.add('phone-link');
-                phoneLink.setAttribute('aria-label', 'phone');
-                phoneLink.setAttribute('href', `tel:${memberObject.phone}`);
-
                 const phoneIcon = document.createElement('span');
                 phoneIcon.classList.add('material-symbols-outlined');
                 phoneIcon.textContent = "call";
 
-                phoneLink.appendChild(phoneIcon);
-                phoneDiv.appendChild(phoneLink);
+                const phoneText = document.createElement('span');
+                phoneText.classList.add('phone-text');
+                phoneText.textContent = memberObject.phone;
+
+                phoneDiv.appendChild(phoneIcon);
+                phoneDiv.appendChild(phoneText);
                 contactIconsDiv.appendChild(phoneDiv);
             }
 
