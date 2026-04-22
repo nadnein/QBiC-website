@@ -411,6 +411,7 @@ button {
 /* don't change name without checking js*/
 .team {
     max-width: calc(var(--member-image-max-width) * 5 + var(--gap-between-members) * 4);
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -434,6 +435,13 @@ button {
     margin-bottom: 32px;
 }
 
+#head .team-grid {
+    grid-template-columns: repeat(2, minmax(0, var(--member-image-max-width))) !important;
+    width: min(100%, calc(var(--member-image-max-width) * 2 + var(--gap-between-members)));
+    max-width: 100%;
+    justify-content: start;
+}
+
 /* don't change name without checking js*/
 .team-description {
     margin-bottom: var(--team-description-margin-bottom);
@@ -443,9 +451,10 @@ button {
 /* don't change name without checking js*/
 .team-grid {
     display: grid;
-    grid-template-columns: repeat(5, minmax(0, var(--member-image-max-width))) !important;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr)) !important;
     gap: var(--gap-between-members);
     max-width: 100%;
+    width: 100%;
 }
 
 /* don't change name without checking js*/
@@ -456,16 +465,23 @@ button {
     position: relative;
     text-align: left;
     background: rgba(0, 0, 0, 0);
+    min-width: 0;
+    width: min(100%, var(--member-image-max-width));
+    max-width: var(--member-image-max-width);
+    justify-self: start;
 }
 
 /* don't change name without checking js*/
 .member-image {
+    height: auto;
     max-height: var(--member-image-max-height) !important;
-    max-width: var(--member-image-max-width) !important;
+    max-width: min(100%, var(--member-image-max-width)) !important;
+    width: 100%;
     aspect-ratio: 5 / 6;
     object-fit: cover;
     object-position: top center;
     margin-bottom: var(--member-image-margin-bottom);
+    display: block;
 }
 
 /* don't change name without checking js*/
@@ -486,6 +502,49 @@ button {
     margin-bottom: var(--member-title-margin-bottom) !important;
     margin-top: 0;
     text-transform: uppercase;
+}
+
+@media (max-width: 1024px) {
+    .team-grid {
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, 160px), 1fr)) !important;
+        gap: 24px;
+    }
+}
+
+@media (max-width: 767px) {
+    #teams {
+        padding: 32px 16px;
+        gap: 56px;
+    }
+
+    .team {
+        max-width: 100%;
+    }
+
+    .team-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        gap: 20px 16px;
+    }
+
+    .member-name {
+        font-size: 18px !important;
+    }
+
+    .member-title,
+    .phone-text {
+        font-size: 14px !important;
+    }
+
+}
+
+@media (max-width: 767px) and (orientation: landscape) {
+    .team-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    }
+
+    .member-image {
+        max-height: 200px !important;
+    }
 }
 
 /* don't change name without checking js*/
